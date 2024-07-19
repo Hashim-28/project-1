@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <!-- Font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton+SC&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ga+Maamli&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+        </style>
+    <!-- css -->
+    <link rel="stylesheet" href="index.css">
+    <!-- responsive -->
+    <link
+    rel="stylesheet"  href="Phone.css" media="(min-width:360px) and (max-width:767.98px)"/>
+    <link rel="stylesheet" href="Tablets.css" media="(min-width: 768px) and (max-width: 1071px)">
+        <!-- emailconnection -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "4KO-EqP0lbTyvyUd5",
+      });
+   })();
+</script>
+</head>
+<body>
+    <section id="navbar">
+        <nav>
+            
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contect</a></li>
+                <li><a href="#project">Projects</a></li>
+                <span id="fn">Hashim </span><span id="ln">Ali</span>
+            </ul>
+            
+        </nav>
+    </section>
+    
+    <section id="home">
+        <p>Hello! I'm <strong>Hashim Ali</strong>, a web developer with a on going Bachelor's degree of Software Engineering. I specialize in creating responsive and interactive web solutions using HTML, CSS, JavaScript, and frameworks like React and Angular. My back-end skills include Node.js. <br>
+        I am passionate about building user-friendly websites and applications, and I enjoy staying updated with the latest web development trends. Check out my portfolio to see my work, and feel free to reach out for collaboration or inquiries! <br> Click here to check CV</p>
+        
+        <button id="openCVButton"   >Open CV</button>
+        <img src="pic/me.jpg" alt="">
+    </section>
+
+    <section id="skill" >
+        <h1>Skills</h1>
+        <div id="lang" >
+            <h2>Programming Languages</h2>
+            <ul>
+            <li ><img src="pic/html.png" alt="">HTML</li>
+            <li><img src="pic/css.png" alt="">CSS</li>
+            <li><img src="pic/js.png" alt="">Java Script</li>
+            <li><img src="pic/C++.png" alt="">C++</li>
+            <li><img src="pic/Cnet.png" alt="">C# (Asp.net Framwork)</li>
+            <li><img src="pic/emu-removebg-preview.png" alt="">Assmbly Language</li>
+        </ul>
+        </div>
+        <div id="other">
+            <h2>Other Skills</h2>
+            <ul>
+                <li><img src="pic/video.png" alt="">Video Editing</li>
+                <li><img src="pic/auto.png" alt="">AutoCad 2007(2D)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="project">
+        <h1>Projects</h1>
+        <div>
+            <h2 id="gh">Gym Mangment System</h2>
+            <p id="g">The Gym Management System is a comprehensive web application designed to streamline the operations of a gym or fitness center. This project aims to simplify member management, class scheduling, and staff coordination, providing an efficient and user-friendly interface for both gym administrators and members.</p><br>
+            <button id="gym">Click here</button>
+            <h2 id="bh">Bravo Hubs</h2>
+            <p  id="b">BravoHub is an innovative e-commerce platform designed to provide a seamless and enjoyable online shopping experience.Multiple secure payment gateways, ensuring that customers can shop with confidence.</p>
+            <button id="bravo">Click here</button>
+        </div>
+    </section >
+
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="formStatus"></div>
+    </section>
+
+    <section>
+        <footer class="footer">
+            <div> <img src="pic/insta.png" alt="Instagram" id="instagram">
+                <img src="pic/facebook.png" alt="facebook" id="facebook"></div>
+            <div class="contact-info">
+                <p>Email: hashim242003@gmail.com</p>
+                <p>Phone: +92 332-8417456</p>
+            </div>
+           
+            <div class="copyright">
+                <p>&copy; 2024 Hashim Ali . All Rights Reserved.</p>
+            </div>
+        </footer>
+    </section>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

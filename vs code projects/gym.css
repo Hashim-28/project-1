@@ -1,0 +1,93 @@
+.header {
+  margin: 5px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+body {
+  background-image: url("pic/logo.jpg.jpg");
+  background-repeat: no-repeat;
+  background-size: 1380px 720px;
+}
+p {
+  margin: 45px;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+  margin: 35px;
+  text-shadow: 1px 1px black;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.671);
+}
+
+input {
+  position: relative;
+  left: 20%;
+  /* text-align: center; */
+  position: relative;
+    left:120px;
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 2%;
+}
+input::placeholder
+{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+}
+input[type="search"]
+{
+    padding: 0%;
+}
+img {
+  position: relative;
+  left: 35px;
+}
+form {
+  border: 3px solid;
+  border-color: azure;
+  border-radius: 15px;
+  width: 375px;
+  height: auto;
+  position: relative;
+  left: 10%;
+  top: 80px;
+  padding: 20px;
+}
+h2 {
+  color: aliceblue;
+  position: relative;
+  left: 75px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+#Submit {
+  text-shadow: 1px 1px black;
+  width: 175px;
+  position: relative;
+  left:120px;
+}
+#Submit:hover {
+  color: black;
+  text-shadow: 1px 1px white;
+  /* background-color:white; */
+}
+button{
+    position: relative;
+    left: 85px;
+    bottom: 5px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: none;
+    color: white;
+}

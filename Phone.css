@@ -1,0 +1,218 @@
+/* #navbar {
+    display: flex;
+    font-family:"Wittgenstein", serif;
+    font-size: 65%;
+} */
+#navbar::before{
+    content: "";
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    margin: -10px ;
+    height: 8%;
+    width: 100.1%;
+    z-index: -1;
+    opacity: 0.1;
+}
+#navbar ul {
+    flex-direction: row;
+    align-items: center;
+    font-size: 50%;
+}
+
+#navbar ul li {
+    margin: -20px   -25px;
+    padding: 0px 30px;
+}
+ 
+
+#home img {
+    width: 30%;
+    height: auto;
+    left: 5%;
+    margin: -30%  60%;
+}
+
+#home p {
+    width: 50%;
+    margin: 15% 5%;
+    font-size: 45%;
+}
+#home button{
+    width: 100px;
+    height: 40px;   
+    margin: -10%  5%;
+    border: transparent;
+    border-radius: 5px;
+    background: black;
+    color:white;
+    font-family:serif;
+    font-size: 10px;
+    padding: -15px 0px;
+}
+
+#skill{
+    
+    display: flex;
+    margin-top: 60%;
+    margin-bottom: 10%;
+    font-family: "Acme", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 45%;
+}
+#skill h1{
+    margin-left: 45%;
+    font-size: 20px;  
+}
+/* #lang{
+   
+    margin: 8%  -95%;
+    
+} */
+#lang h2{
+    font-size: 15px;
+    margin-left: 0%;
+}
+#lang ul{
+    list-style: none;
+    margin: -5% 0%;
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 0px;
+    width: 200px;
+    border: transparent;
+     
+}
+#lang ul li{
+    padding: 0px ;
+}
+#lang ul li img{
+    padding: 2px 5px;
+    width: 10px;
+    height: 10px;
+}
+
+#other h2{
+    font-size: 15px;
+    margin-left: -45%;
+}
+#other ul{
+    font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    list-style: none;
+    margin-left: -45%;
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 0px;
+    width: 130px;
+    border: transparent;
+}
+#other ul li{
+    padding: 0px;
+}
+#other ul li img{
+    padding: 0px 5px;
+    width: 10px;
+    height: 10px;
+}
+
+
+#project h1{
+    margin: -10% 40%;
+    font-size: 30px;
+}
+
+
+/* #project div p {
+    font-size: 18px;
+    /* margin-left: 8%; 
+    
+} */
+#g{
+    font-size: 10px;
+    margin-left: 16%;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    border: transparent;
+    background: url('pic/hero-1.jpg');
+    color: white;
+    height: 200px;
+    width: 300px;
+    text-shadow: 0 0 10px black,
+               0 0 20px black,
+               0 0 40px black,
+               0 0 10px black,
+               0 0 10px black;
+} 
+#b{
+    border-radius: 10px;
+    font-size: 10px;
+    margin-left: 16%;   
+    border: transparent;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+    background: url('pic/bravo.png');
+    height: 200px;
+    width: 300px;
+    text-shadow: 0 0 10px white,
+    0 0 20px white,
+    0 0 40px white,
+    0 0 10px white,
+    0 0 10px white;
+}
+
+#project div button{
+
+    width: 100px;
+    height: 40px;
+    margin: 0%  35%;
+    border: transparent;
+    border-radius: 10px;
+    background: black;
+    color:white;
+    font-family:serif;
+    font-size: 10px;
+}
+#gh{
+    font-size: 85%;
+    margin: 20% 30% 0%;
+}
+#bh{
+    font-size: 85%;
+    margin:4% 37% 0px;
+}
+
+#contact {
+    width: 90%;
+    margin: 5% auto;
+}
+
+
+#instagram {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+#instagram:hover{
+    transform: scale(1.2);
+    
+}
+#facebook{
+    margin:-35px 35% 0px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+#facebook:hover{
+    transform: scale(1.2);
+   
+}
+.footer {
+    background-color: #333;
+  
+    width: 114%;
+}
